@@ -747,15 +747,15 @@
         flex-direction: column;
         position: fixed;
         top: 0;
-        right: 0;
+        left: 0;
         height: 100dvh;
         width: min(80vw, 280px);
         background: linear-gradient(160deg, var(--purple-dark), var(--purple-mid));
         padding: 5rem 1.5rem 2rem;
         gap: 0.3rem;
         z-index: 99;
-        box-shadow: -4px 0 24px rgba(0,0,0,0.25);
-        transform: translateX(100%);
+        box-shadow: 4px 0 24px rgba(0,0,0,0.25);
+        transform: translateX(-100%);
         transition: transform 0.3s ease;
         overflow-y: auto;
       }
@@ -800,10 +800,10 @@
   <!-- ══ Header ══ -->
   <header id="site-header">
     <div class="nav-inner">
-      <div class="site-logo"><span>🔬</span>詮芳胃醫藥補給站</div>
       <button class="hamburger" id="hamburger-btn" aria-label="開啟選單">
         <span></span><span></span><span></span>
       </button>
+      <div class="site-logo"><span>🔬</span>詮芳胃醫藥補給站</div>
       <nav id="main-nav">
         <a href="#what-is">什麼是經鼻胃鏡</a>
         <a href="#process">檢查流程</a>
@@ -1096,7 +1096,7 @@
           <ul class="checklist">
             <li>
               <span class="check-icon">✓</span>
-              <span><strong>檢查前 8 小時禁食</strong>：前一晚 22:00 後不可進食固體食物，確保胃部清空。</span>
+              <span><strong>檢查前 8 小時禁食</strong>：前一晚 24:00 後不可進食固體食物，確保胃部清空。</span>
             </li>
             <li>
               <span class="check-icon">✓</span>
@@ -1331,7 +1331,7 @@
             <span class="faq-icon">+</span>
           </button>
           <div class="faq-answer">
-            <p>依據健保規定，胃鏡檢查在符合適應症的情況下通常有健保給付。自費項目（如進階染色、特殊切片等）則另計。費用詳情建議直接向診所或醫院確認，以取得最準確資訊。</p>
+            <p>經鼻胃鏡因為設計較細緻，通常院所會酌收自費費用，費用詳情建議直接向診所或醫院確認，以取得最準確資訊。</p>
           </div>
         </div>
 
@@ -1366,25 +1366,25 @@
     <div class="container">
       <div class="section-header">
         <span class="section-tag">聯絡我們</span>
-        <h2>詮芳胃醫藥補給站</h2>
+        <h2>辰忻樂誠聯合診所</h2>
         <p>有任何問題，歡迎來電或到院諮詢，我們的醫護團隊隨時為您服務</p>
       </div>
 
       <div class="cards-grid" style="max-width:640px; margin: 2rem auto 0;">
         <div class="feature-card">
           <div class="icon">📞</div>
-          <h3>電話諮詢</h3>
-          <p>週一至週五 09:00–18:00</p>
+          <h3>預約專線</h3>
+          <p>07-3725056</p>
         </div>
         <div class="feature-card">
           <div class="icon">📍</div>
-          <h3>門診預約</h3>
-          <p>請電話或現場預約，避免等候</p>
+          <h3>診所地址</h3>
+          <p>高雄市仁武區鳳仁路79號</p>
         </div>
         <div class="feature-card">
-          <div class="icon">💬</div>
-          <h3>線上諮詢</h3>
-          <p>歡迎透過官方 LINE 或官網留言</p>
+          <div class="icon">🏥</div>
+          <h3>辰忻樂誠聯合診所</h3>
+          <p>請電話或現場預約，避免等候</p>
         </div>
       </div>
 
